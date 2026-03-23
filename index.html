@@ -1,0 +1,1506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F5 Estratégia – Escala Real para Operações Acima de R$ 350k/mês</title>
+  <meta name="description" content="Parceiros estratégicos de escala para operações acima de R$ 350k/mês. Metodologia validada em +3.000 empresas."/>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K28KHX6');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    @font-face{font-family:'iBrand';src:url('https://files.greatpages.com.br/arquivos/paginas_editor/24366-ibrand-regular.woff2') format('woff2'),url('https://files.greatpages.com.br/arquivos/paginas_editor/24366-ibrand-regular.woff') format('woff');font-weight:400;font-style:normal;font-display:swap}
+    body{font-family:'Poppins',ui-sans-serif,system-ui,sans-serif;background:#EFEFEF;color:#0C0C10;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+    :root{
+      --org:#FE5105;--org-d:#C93F04;--org-l:#ff7a3d;
+      --dark:#0C0C10;--dark2:#1a1a20;
+      --surface:#FFFFFF;--bg:#EFEFEF;--bg2:#F7F7F7;
+      --gray:#595959;--gray-l:#8A8A8A;
+      --border:#E0E0E0;--border-l:#ECECEC;
+      --t1:#0C0C10;--t2:#595959;--t3:#8A8A8A;
+      --r:14px;--sh:0 2px 16px rgba(12,12,16,.07);--sh-l:0 12px 40px rgba(12,12,16,.12)
+    }
+    h1,h2,h3,h4{font-family:'iBrand','Poppins',sans-serif;font-weight:400;line-height:1.1;letter-spacing:-.01em}
+    h1{font-size:clamp(2rem,4.5vw,3.4rem)}
+    h2{font-size:clamp(1.8rem,3.5vw,2.8rem)}
+    h3{font-size:1.15rem;font-family:'Poppins',sans-serif;font-weight:700}
+    p,span,label,input,textarea,select,button,a,li{font-family:'Poppins',sans-serif}
+    .container{max-width:1200px;margin:0 auto;padding:0 24px}
+    .org{color:var(--org)}
+
+    /* ANNOUNCEMENT */
+    .ann{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--org);padding:9px 24px;text-align:center}
+    .ann span{color:#fff;font-size:11px;font-weight:600;letter-spacing:.18em;text-transform:uppercase}
+
+    /* HEADER */
+    header{position:fixed;top:36px;left:0;right:0;z-index:90;background:rgba(239,239,239,.94);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);transition:box-shadow .3s}
+    header.scrolled{box-shadow:0 4px 24px rgba(12,12,16,.08)}
+    .hdr{display:flex;align-items:center;justify-content:space-between;height:68px}
+    .logo{font-weight:800;font-size:1.45rem;color:var(--t1);text-decoration:none}
+    .logo span{color:var(--org)}
+    nav{display:flex;align-items:center;gap:28px}
+    nav a{text-decoration:none;color:var(--t2);font-size:14px;font-weight:500;cursor:pointer;transition:color .2s}
+    nav a:hover{color:var(--org)}
+    .btn{background:var(--org);color:#fff;border:none;border-radius:8px;cursor:pointer;padding:11px 22px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;display:inline-flex;align-items:center;gap:8px;transition:background .2s,transform .15s;font-family:'Poppins',sans-serif}
+    .btn:hover{background:var(--org-d);transform:translateY(-1px)}
+    .btn svg{width:15px;height:15px}
+    .btn-lg{padding:17px 38px;font-size:15px;border-radius:10px}
+    .ham{display:none;background:none;border:none;cursor:pointer;padding:8px}
+    .ham span{display:block;width:22px;height:2px;background:var(--t1);margin:5px 0;transition:all .3s}
+    .mob{display:none;position:fixed;top:104px;left:0;right:0;z-index:80;background:var(--surface);border-bottom:1px solid var(--border);padding:16px 24px;flex-direction:column;gap:4px}
+    .mob.open{display:flex}
+    .mob a{padding:13px 16px;color:var(--t2);font-weight:500;cursor:pointer;border-radius:8px;transition:all .2s}
+    .mob a:hover{background:var(--bg);color:var(--org)}
+    .mob .btn{margin-top:8px;justify-content:center}
+
+    /* HERO — fundo cinza texturizado com ruído sutil */
+    .hero{padding-top:148px;padding-bottom:80px;background-color:var(--bg);position:relative;overflow:hidden}
+    .hero::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");opacity:.6;pointer-events:none}
+    .hero::after{content:'';position:absolute;top:-80px;right:-120px;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,rgba(254,81,5,.07),transparent 70%);pointer-events:none}
+    .hg{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+    .hcopy{animation:fadeUp .8s ease forwards}
+    .hcopy .tag{margin-bottom:22px}
+    .hcopy h1{margin-bottom:18px}
+    .hcopy p{font-size:16px;color:var(--t2);line-height:1.7;margin-bottom:30px}
+    .hcopy p strong{color:var(--t1);font-weight:600}
+    .mets{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .met{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px;text-align:center;box-shadow:var(--sh)}
+    .metv{font-size:1.35rem;font-weight:800;color:var(--org);font-family:'iBrand','Poppins',sans-serif}
+    .metl{font-size:10px;color:var(--t3);text-transform:uppercase;letter-spacing:.08em;margin-top:3px}
+
+    /* TAG e animações */
+    .tag{display:inline-flex;align-items:center;gap:8px;border-radius:100px;padding:6px 16px;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-family:'Poppins',sans-serif}
+    .t-org{background:rgba(254,81,5,.1);border:1px solid rgba(254,81,5,.25);color:var(--org)}
+    .t-inv{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff}
+    .t-dark{background:rgba(12,12,16,.07);border:1px solid rgba(12,12,16,.12);color:var(--gray)}
+    .tag::before{content:'';width:6px;height:6px;border-radius:50%;background:currentColor;animation:blink 2s infinite}
+    @keyframes blink{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.4;transform:scale(1.5)}}
+    @keyframes fadeUp{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+    .anim{opacity:0}.anim.on{animation:fadeUp .7s ease forwards}
+    .d1.on{animation-delay:.1s}.d2.on{animation-delay:.2s}.d3.on{animation-delay:.3s}.d4.on{animation-delay:.4s}
+
+    /* FORM */
+    .fwrap{position:sticky;top:136px;animation:fadeUp .9s .2s ease both}
+    .fcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:32px;box-shadow:var(--sh-l)}
+    .fcard h3{font-size:1.05rem;text-align:center;margin-bottom:5px}
+    .fsub{font-size:13px;color:var(--t3);text-align:center;margin-bottom:22px}
+    .field{position:relative;margin-bottom:14px}
+    .field input,.field textarea,.field select{width:100%;background:var(--bg);border:1.5px solid var(--border);border-radius:10px;padding:20px 14px 7px;font-size:14px;color:var(--t1);font-family:'Poppins',sans-serif;outline:none;appearance:none;transition:border-color .2s,box-shadow .2s}
+    .field input:focus,.field textarea:focus,.field select:focus{border-color:var(--org);box-shadow:0 0 0 3px rgba(254,81,5,.1)}
+    .field label{position:absolute;left:14px;top:13px;font-size:12px;color:var(--t3);pointer-events:none;transition:all .2s}
+    .field input:focus+label,.field input:not(:placeholder-shown)+label,.field textarea:focus+label,.field textarea:not(:placeholder-shown)+label{top:5px;font-size:10px;color:var(--org)}
+    .field textarea{min-height:76px;resize:none;padding-top:20px}
+    .field select{padding:13px 14px;cursor:pointer}
+    .slbl{display:block;font-size:12px;color:var(--t3);margin-bottom:5px}
+    .bsub{width:100%;background:var(--org);color:#fff;border:none;border-radius:10px;cursor:pointer;padding:17px;font-size:14px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;font-family:'Poppins',sans-serif;display:flex;align-items:center;justify-content:center;gap:9px;transition:background .2s,transform .15s;margin-top:6px}
+    .bsub:hover:not(:disabled){background:var(--org-d);transform:translateY(-1px)}
+    .bsub:disabled{opacity:.7;cursor:not-allowed}
+    .bsub svg{width:17px;height:17px}
+    .disc{font-size:11px;color:var(--t3);text-align:center;margin-top:11px}
+    .bwrap{margin-top:18px;padding-top:18px;border-top:1px solid var(--border)}
+    .bwrap p{font-size:11px;color:var(--t3);text-align:center;margin-bottom:10px}
+    .brow{display:flex;align-items:center;justify-content:center;gap:16px}
+    .badge{background:var(--bg);border:1px solid var(--border);border-radius:7px;padding:7px 14px;display:flex;align-items:center;justify-content:center}
+    .badge img{height:20px;width:auto;object-fit:contain;display:block}
+
+    /* SEC HEADER */
+    .shdr{text-align:center;margin-bottom:52px}
+    .shdr .tag{margin-bottom:14px}
+    .shdr h2{margin-bottom:14px}
+    .shdr p{font-size:16px;color:var(--t2);max-width:540px;margin:0 auto}
+
+    /* PARCEIROS — branco limpo com sombra suave */
+    .sec2{background:var(--surface);padding:88px 0;border-bottom:1px solid var(--border-l)}
+    .sec2-grid{display:grid;grid-template-columns:1fr 420px;gap:64px;align-items:center}
+    /* FAQ */
+    .faq-list{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--border)}
+    .faq-item{border-bottom:1px solid var(--border)}
+    .faq-q{width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 0;font-family:'Poppins',sans-serif;font-size:15px;font-weight:600;color:var(--t1);text-align:left;transition:color .2s}
+    .faq-q-left{display:flex;align-items:center;gap:14px}
+    .faq-ic{width:36px;height:36px;border-radius:10px;background:rgba(254,81,5,.08);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .25s}
+    .faq-ic svg{width:17px;height:17px;color:var(--org)}
+    .faq-q:hover,.faq-q.open{color:var(--org)}
+    .faq-q.open .faq-ic{background:var(--org)}
+    .faq-q.open .faq-ic svg{color:#fff}
+    .faq-ico{width:18px;height:18px;flex-shrink:0;transition:transform .3s;color:var(--gray-l)}
+    .faq-q.open .faq-ico{transform:rotate(180deg);color:var(--org)}
+    .faq-a{font-size:14px;color:var(--t2);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;padding:0 0 0 50px}
+    .faq-a.open{max-height:200px;padding-bottom:18px;padding-left:50px}
+    /* Foto lado direito */
+    .sec2-right{display:flex;justify-content:center}
+    .sec2-photo{width:100%;aspect-ratio:4/5;border-radius:20px;overflow:hidden;background:var(--bg);border:1.5px dashed var(--border);display:flex;align-items:center;justify-content:center;position:relative}
+    .sec2-ph-inner{display:flex;flex-direction:column;align-items:center;gap:12px;color:var(--gray-l);text-align:center;font-size:13px}
+    .sec2-ph-inner svg{width:40px;height:40px;opacity:.4}
+    .sec2-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
+
+    /* ===== CASES — fundo laranja premium ===== */
+    .sec3{background-color:var(--org);padding:80px 0;position:relative;overflow:hidden}
+    .sec3::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.08'/%3E%3C/svg%3E");pointer-events:none}
+    .sec3::after{content:'';position:absolute;top:-160px;right:-160px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.1),transparent 65%);pointer-events:none}
+    .sec3 .shdr h2{color:#fff}
+    .sec3 .shdr p{color:rgba(255,255,255,.75)}
+    /* card principal */
+    .car-outer{overflow:hidden;border-radius:24px}
+    .carousel{display:flex;gap:0;cursor:grab;user-select:none;will-change:transform}
+    .carousel.drag{cursor:grabbing}
+    .cc{flex:0 0 100%;background:#fff;border-radius:24px;box-shadow:0 8px 40px rgba(0,0,0,.25);display:flex;overflow:hidden;min-height:460px;position:relative}
+
+    /* Coluna esquerda: fotos em loop */
+    .cphoto{width:320px;flex-shrink:0;position:relative;overflow:hidden;background:#111}
+    .cphoto-slides{display:flex;width:100%;height:100%;transition:transform .7s cubic-bezier(.4,0,.2,1)}
+    .cphoto-slide{flex:0 0 100%;height:100%}
+    .cphoto-slide img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+    /* Logo no canto inferior esquerdo da foto */
+    .cphoto-logo{
+      position:absolute;bottom:16px;left:16px;z-index:3;
+      background:rgba(255,255,255,.95);backdrop-filter:blur(8px);
+      border-radius:10px;padding:8px 14px;
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 4px 16px rgba(0,0,0,.18);
+    }
+    .cphoto-logo img{height:26px;width:auto;max-width:110px;object-fit:contain;display:block}
+    /* Dots da foto */
+    .cphoto-dots{position:absolute;bottom:16px;right:16px;z-index:3;display:flex;gap:5px}
+    .cphoto-dot{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,.5);transition:all .3s;cursor:pointer}
+    .cphoto-dot.on{background:#fff;width:14px;border-radius:3px}
+
+    /* Seção label — canto superior direito do card */
+    .csec-label{
+      position:absolute;top:20px;right:20px;z-index:4;
+      background:rgba(254,81,5,.1);border:1px solid rgba(254,81,5,.25);
+      border-radius:100px;padding:5px 14px;
+      font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+      color:var(--org);
+    }
+
+    /* Coluna direita: conteúdo */
+    .cbody{flex:1;padding:36px 40px 36px;display:flex;flex-direction:column;justify-content:center;gap:14px;position:relative}
+    .ctag{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--org)}
+    .chead{font-size:clamp(1.3rem,2.2vw,1.75rem);font-weight:900;line-height:1.15;color:#1A1A1A}
+    .csub{font-size:14px;color:var(--t2);line-height:1.7}
+    /* Stats em linha */
+    .cstats{display:flex;flex-wrap:wrap;gap:24px;margin-top:4px}
+    .cstat{display:flex;flex-direction:column;gap:4px}
+    .cstat-val{font-size:clamp(1.6rem,2.8vw,2.4rem);font-weight:900;color:var(--org);line-height:1;font-family:'iBrand','Poppins',sans-serif}
+    .cstat-lbl{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--t3)}
+    /* Destaque operacional */
+    .cdestaque{
+      display:flex;align-items:flex-start;gap:10px;
+      padding:12px 16px;background:rgba(254,81,5,.05);
+      border-left:3px solid var(--org);border-radius:0 8px 8px 0;
+      margin-top:2px;
+    }
+    .cdestaque p{font-size:13px;color:var(--t2);line-height:1.6;margin:0}
+    .cdestaque p strong{color:var(--t1)}
+
+    /* Controles do carrossel principal */
+    .cctrl{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:28px}
+    .cbtn{width:40px;height:40px;border-radius:50%;border:1.5px solid rgba(255,255,255,.4);background:rgba(255,255,255,.15);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;color:#fff}
+    .cbtn:hover{background:#fff;border-color:#fff;color:var(--org)}
+    .cbtn svg{width:18px;height:18px}
+    .cdots{display:flex;gap:6px}
+    .dot{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.35);cursor:pointer;transition:all .3s}
+    .dot.on{background:#fff;width:22px;border-radius:4px}
+
+    @media(max-width:768px){
+      .cc{flex-direction:column}
+      .cphoto{width:100%;height:300px}
+      .csec-label{top:12px;right:12px;font-size:9px;padding:4px 10px}
+      .cbody{padding:20px;gap:12px}
+    }
+
+    /* CHAVI — Apple scroll-driven, sticky fullscreen */
+    .sec4{background-color:var(--dark);position:relative}
+    .sec4::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,rgba(255,255,255,.018) 1px,transparent 1px);background-size:32px 32px;pointer-events:none;z-index:0}
+    /* Intro centralizado */
+    .chavi-intro{text-align:center;padding:100px 24px 80px;position:relative;z-index:1}
+    /* Scroll container — 500vh para 5 pilares */
+    .chavi-scroll{position:relative;height:500vh;z-index:1}
+    /* Painel sticky fullscreen */
+    .chavi-pin{position:sticky;top:0;height:100vh;overflow:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center}
+    .chavi-word{display:flex;gap:10px;margin-bottom:16px}
+    .cw{font-family:'iBrand','Poppins',sans-serif;font-size:26px;font-weight:400;letter-spacing:.25em;color:rgba(255,255,255,.18);transition:color .35s ease,transform .35s ease}
+    .cw.on{color:var(--org);transform:scale(1.2)}
+    /* Número do pilar */
+    .chavi-num{font-size:11px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.25);margin-bottom:32px;transition:all .5s}
+    /* Letra gigante */
+    .chavi-gl{font-family:'iBrand','Poppins',sans-serif;font-size:clamp(10rem,22vw,20rem);line-height:1;color:var(--org);transition:all .6s cubic-bezier(.16,1,.3,1);user-select:none;text-align:center}
+    /* Texto abaixo da letra */
+    .chavi-txt{text-align:center;margin-top:24px;transition:all .5s cubic-bezier(.16,1,.3,1)}
+    .chavi-txt-name{font-family:'iBrand','Poppins',sans-serif;font-size:clamp(1.6rem,3.5vw,2.8rem);color:#fff;margin-bottom:10px}
+    .chavi-txt-desc{font-size:clamp(14px,1.8vw,17px);color:rgba(255,255,255,.45);max-width:480px;line-height:1.7;margin:0 auto;padding:0 20px}
+    /* Indicador de progresso em linha */
+    .chavi-dots{display:flex;align-items:center;gap:8px;position:absolute;bottom:40px}
+    .chavi-dot{width:28px;height:3px;border-radius:2px;background:rgba(255,255,255,.15);transition:all .4s ease;cursor:pointer}
+    .chavi-dot.on{width:48px;background:var(--org)}
+    /* Ornamento: círculo de fundo */
+    .chavi-orb{position:absolute;width:600px;height:600px;border-radius:50%;border:1px solid rgba(254,81,5,.06);pointer-events:none;transition:transform .8s cubic-bezier(.16,1,.3,1),opacity .5s}
+    .chavi-orb2{position:absolute;width:380px;height:380px;border-radius:50%;border:1px solid rgba(254,81,5,.1);pointer-events:none;transition:transform .8s cubic-bezier(.16,1,.3,1)}
+    .cht span{font-size:12px;color:rgba(255,255,255,.5)}
+    .chright{display:flex;align-items:center;justify-content:center}
+    .funnel{width:100%;max-width:380px}
+    .fs{border-radius:12px;margin-bottom:8px;padding:14px 20px;display:flex;align-items:center;gap:14px;transition:all .3s;cursor:default;position:relative;overflow:hidden}
+    .fs::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--org)}
+    .fs:nth-child(1){background:rgba(244,66,10,.18);width:100%}
+    .fs:nth-child(2){background:rgba(244,66,10,.14);width:92%;margin:0 auto 8px}
+    .fs:nth-child(3){background:rgba(244,66,10,.10);width:82%;margin:0 auto 8px}
+    .fs:nth-child(4){background:rgba(244,66,10,.07);width:70%;margin:0 auto 8px}
+    .fs:nth-child(5){background:rgba(244,66,10,.05);width:58%;margin:0 auto}
+    .fs:hover{filter:brightness(1.3)}
+    .fl{font-size:1.4rem;font-weight:900;color:var(--org);width:28px;text-align:center;flex-shrink:0}
+    .ft{font-size:13px;font-weight:600;color:#fff;white-space:nowrap}
+    .fn{margin-left:auto;font-size:12px;font-weight:700;color:rgba(255,255,255,.4)}
+
+    /* INTEL — fundo branco com grid pattern cinza levíssimo */
+    .sec5{padding:88px 0;position:relative;overflow:hidden;background:var(--surface)}
+    .sec5::before{content:'';position:absolute;inset:0;background-image:linear-gradient(var(--border-l) 1px,transparent 1px),linear-gradient(90deg,var(--border-l) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;opacity:.7}
+    .sec5 .container{position:relative;z-index:1}
+    .rc{background:var(--surface)}
+    .g3{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+    .card{background:var(--surface);border:1.5px solid var(--border);border-radius:var(--r);padding:28px;transition:transform .25s,border-color .25s,box-shadow .25s}
+    .card:hover{transform:translateY(-4px);border-color:rgba(254,81,5,.3);box-shadow:var(--sh-l)}
+    .ic{width:46px;height:46px;border-radius:12px;background:rgba(254,81,5,.09);display:flex;align-items:center;justify-content:center;margin-bottom:18px;flex-shrink:0;transition:background .25s}
+    .ic svg{width:21px;height:21px;color:var(--org)}
+    .card:hover .ic{background:var(--org)}
+    .card:hover .ic svg{color:#fff}
+    .srv{display:flex;align-items:baseline;gap:8px;margin-bottom:10px}
+    .sv{font-size:2.1rem;font-weight:800;color:var(--org);font-family:'iBrand','Poppins',sans-serif}
+    .ss{font-size:13px;color:var(--t3)}
+
+    /* ===== SEC6 MÉTODO — Fundo cinza, esquema claro ===== */
+    .sec6{background-color:var(--bg);padding:120px 0 100px;position:relative;overflow:hidden}
+    /* Ghost text de fundo */
+    .sec6::before{
+      content:'MÉTODO';
+      position:absolute;
+      bottom:-60px;right:-40px;
+      font-family:'iBrand','Poppins',sans-serif;
+      font-size:clamp(120px,18vw,220px);
+      font-weight:900;letter-spacing:-.04em;
+      color:rgba(12,12,16,.04);
+      pointer-events:none;line-height:1;
+      user-select:none;
+    }
+    /* Glow laranja central */
+    .sec6::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:300px;border-radius:50%;background:radial-gradient(ellipse,rgba(254,81,5,.05),transparent 65%);pointer-events:none}
+
+    /* HEADER da seção */
+    .s6-hdr{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:end;margin-bottom:80px;position:relative;z-index:1}
+    .s6-tag{display:inline-flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--org);margin-bottom:20px}
+    .s6-tag::before{content:'';width:18px;height:1px;background:var(--org);display:inline-block}
+    .s6-h2{font-family:'iBrand','Poppins',sans-serif;font-size:clamp(2rem,4vw,3.4rem);color:var(--t1);line-height:1.1;letter-spacing:-.02em}
+    .s6-h2 em{font-style:normal;color:var(--org)}
+    .s6-sub{font-size:15px;color:var(--t3);line-height:1.8;align-self:end;padding-bottom:4px}
+
+    /* PILARES — linhas horizontais */
+    .s6-pillars{position:relative;z-index:1}
+    .s6-pillar{
+      display:grid;grid-template-columns:80px 1fr 1fr;gap:0 48px;
+      align-items:start;
+      padding:40px 0;
+      border-top:1px solid var(--border);
+      cursor:default;
+      transition:background .3s;
+      position:relative;
+    }
+    .s6-pillar:last-child{border-bottom:1px solid var(--border)}
+    .s6-pillar::before{
+      content:'';position:absolute;left:0;top:0;bottom:0;width:0;
+      background:linear-gradient(90deg,rgba(254,81,5,.05),transparent);
+      transition:width .5s cubic-bezier(.16,1,.3,1);
+    }
+    .s6-pillar:hover::before{width:100%}
+
+    .s6-num{
+      font-family:'iBrand','Poppins',sans-serif;
+      font-size:3rem;color:rgba(12,12,16,.08);
+      line-height:1;letter-spacing:-.04em;
+      transition:color .4s;
+      padding-top:4px;
+    }
+    .s6-pillar:hover .s6-num{color:var(--org)}
+
+    .s6-left{}
+    .s6-title{
+      font-family:'Poppins',sans-serif;
+      font-size:1.15rem;font-weight:700;color:var(--t1);
+      margin-bottom:10px;letter-spacing:-.01em;
+      transition:color .3s;
+    }
+    .s6-pillar:hover .s6-title{color:var(--org)}
+    .s6-badge{
+      display:inline-flex;align-items:center;gap:6px;
+      font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+      color:var(--t3);
+    }
+    .s6-badge::before{content:'';width:14px;height:1px;background:var(--border);display:inline-block}
+
+    .s6-right{}
+    .s6-desc{font-size:15px;color:var(--t2);line-height:1.8;transition:color .3s}
+    .s6-pillar:hover .s6-desc{color:var(--t1)}
+
+    .s6-pillar:hover .s6-num::after{opacity:1}
+
+    @media(max-width:900px){
+      .s6-hdr{grid-template-columns:1fr;gap:24px}
+      .s6-pillar{grid-template-columns:52px 1fr;gap:0 24px}
+      .s6-right{grid-column:2}
+      .s6-num{font-size:2rem}
+    }
+    @media(max-width:600px){
+      .sec6{padding:72px 0 64px}
+      .s6-hdr{margin-bottom:40px}
+      .s6-pillar{grid-template-columns:44px 1fr;gap:0 16px;padding:28px 0}
+      .s6-right{grid-column:2}
+      .s6-num{font-size:1.6rem}
+      .s6-desc{font-size:14px}
+    }
+
+    /* LOGOS — fundo branco */
+    .sec7{padding:80px 0;background:#fff;position:relative;overflow:hidden;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+    .sec7 .container{position:relative;z-index:1}
+    .sec7 .shdr h2{color:var(--t1)}
+    .sec7 .shdr p{color:var(--t2)}
+    .sec7 .tag{background:rgba(254,81,5,.08);border-color:rgba(254,81,5,.2);color:var(--org)}
+    /* CARROSSEL DE LOGOS */
+    .logo-track-wrap{
+      overflow:hidden;
+      position:relative;
+      mask-image:linear-gradient(90deg,transparent,#fff 12%,#fff 88%,transparent);
+      -webkit-mask-image:linear-gradient(90deg,transparent,#fff 12%,#fff 88%,transparent);
+    }
+    .logo-track{
+      display:flex;align-items:center;gap:0;
+      width:max-content;
+      animation:logoScroll 22s linear infinite;
+    }
+    .logo-track:hover{animation-play-state:paused}
+    @keyframes logoScroll{
+      0%{transform:translateX(0)}
+      100%{transform:translateX(-50%)}
+    }
+    .lc{
+      flex-shrink:0;
+      padding:0 52px;
+      display:flex;align-items:center;justify-content:center;
+      height:80px;
+      border-right:1px solid var(--border);
+    }
+    .lc:last-child{border-right:none}
+    .lc img{max-height:40px;max-width:160px;object-fit:contain;opacity:.7;transition:opacity .3s;filter:none}
+    .lc:hover img{opacity:1}
+
+    /* CTA — fundo cinza com textura de ruído e glow laranja central */
+    .sec8{padding:96px 0;text-align:center;background-color:var(--bg);position:relative;overflow:hidden}
+    .sec8::before{content:'';position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none}
+    .sec8::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:300px;border-radius:50%;background:radial-gradient(ellipse,rgba(254,81,5,.07),transparent 70%);pointer-events:none}
+    .sec8 h2{max-width:660px;margin:0 auto 18px;position:relative;z-index:1}
+    .sec8 p{font-size:16px;color:var(--t2);margin-bottom:36px;position:relative;z-index:1}
+    .sec8 .btn{position:relative;z-index:1}
+
+    /* FOOTER — escuro com textura diagonal */
+    footer{background:var(--dark);padding:56px 0 28px;border-top:1px solid rgba(255,255,255,.05);position:relative;overflow:hidden}
+    footer::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(45deg,rgba(255,255,255,.01) 0px,rgba(255,255,255,.01) 1px,transparent 1px,transparent 14px);pointer-events:none}
+    .fg{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:48px;margin-bottom:40px}
+    .flogo{font-weight:800;font-size:1.35rem;color:#fff;text-decoration:none;display:inline-block;margin-bottom:12px}
+    .flogo span{color:var(--org)}
+    .fdesc{font-size:14px;color:rgba(255,255,255,.45);line-height:1.7}
+    .fcol h4{font-size:13px;font-weight:700;color:#fff;margin-bottom:14px;text-transform:uppercase;letter-spacing:.08em}
+    .fcol ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+    .fcol ul li a{font-size:14px;color:rgba(255,255,255,.45);text-decoration:none;transition:color .2s}
+    .fcol ul li a:hover{color:var(--org)}
+    .fct{display:flex;align-items:center;gap:9px;font-size:14px;color:rgba(255,255,255,.45)}
+    .fct svg{width:15px;height:15px;color:var(--org);flex-shrink:0}
+    .fbot{padding-top:24px;border-top:1px solid rgba(255,255,255,.06);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+    .fbot p{font-size:12px;color:rgba(255,255,255,.3)}
+    .flnk{display:flex;gap:20px}
+    .flnk a{font-size:12px;color:rgba(255,255,255,.3);text-decoration:none;transition:color .2s}
+    .flnk a:hover{color:var(--org)}
+
+    /* TOAST */
+    .toast{position:fixed;bottom:22px;right:22px;z-index:999;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:15px 18px;box-shadow:var(--sh-l);max-width:310px;transform:translateY(70px);opacity:0;transition:transform .4s,opacity .4s}
+    .toast.show{transform:translateY(0);opacity:1}
+    .toast.ok{border-left:4px solid #22c55e}.toast.err{border-left:4px solid #ef4444}
+    .tt{font-weight:700;font-size:14px;margin-bottom:3px}
+    .tm{font-size:13px;color:var(--t2)}
+
+    .chavi-gl{transition:opacity .35s ease,transform .45s cubic-bezier(.16,1,.3,1)}
+    .chavi-txt-name{transition:opacity .3s ease,transform .35s cubic-bezier(.16,1,.3,1)}
+    .chavi-txt-desc{transition:opacity .3s .05s ease}
+    @media(max-width:960px){
+      .sec2-grid{grid-template-columns:1fr;gap:40px}
+      .sec2-right{order:-1}
+      .sec2-photo{max-width:420px;margin:0 auto}
+      .hg,.chg{grid-template-columns:1fr;gap:36px}
+      .fwrap{position:static}
+      .g3,.mg,.lgrid{grid-template-columns:1fr;gap:16px}
+      .lgrid{grid-template-columns:repeat(2,1fr)}
+      .chbottom{grid-template-columns:1fr}
+      .chright{display:flex}
+      .fg{grid-template-columns:1fr;gap:28px}
+    }
+    @media(max-width:768px){
+      nav,.hdr-cta{display:none}.ham{display:block}
+      h1{font-size:1.75rem}h2{font-size:1.55rem}
+      .sec2,.sec3,.sec4,.sec5,.sec6,.sec7,.sec8,.hero{padding:56px 0}
+      .lgrid{grid-template-columns:repeat(2,1fr)}
+
+      /* ── HERO: evitar overflow ── */
+      .hero{overflow-x:hidden}
+      .hg{grid-template-columns:1fr}
+      .mets{grid-template-columns:repeat(3,1fr);gap:8px}
+      .metv{font-size:1.1rem}
+      .metl{font-size:9px}
+      .hcopy p{font-size:15px}
+      .hcopy h1{word-break:break-word}
+
+      /* ── FORM ── */
+      .fcard{padding:24px 20px}
+
+      /* ── CASES: foto mais alta no mobile ── */
+      .cphoto{height:300px !important}
+      .cbody{padding:20px !important;gap:12px}
+      .cstats{gap:16px}
+      .cstat-val{font-size:1.8rem}
+      .chead{font-size:1.2rem}
+
+      /* ── CHAVI: padding lateral ── */
+      .chavi-intro{padding:80px 20px 60px}
+      .chavi-txt{padding:0 20px}
+      .chavi-txt-desc{padding:0 16px}
+
+      /* ── SEÇÃO EQUIPE: nomes alinhados ── */
+      .eq-names{
+        position:relative;
+        bottom:auto;left:auto;
+        transform:none;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px 32px;
+        padding:20px 16px 32px;
+        background:var(--org);
+        width:100%;
+      }
+      .eq-name strong{font-size:14px}
+      .eq-name span{font-size:10px}
+      .eq-photo-wrap{flex-direction:column}
+
+      /* ── SEÇÃO EQUIPE inner ── */
+      .eq-inner{padding:0 20px}
+      .eq-stats{flex-wrap:wrap}
+      .eq-stat{flex:0 0 50%;border-right:none;border-bottom:1px solid rgba(255,255,255,.1);padding:20px 0}
+      .eq-stat:nth-child(n){padding-left:0}
+      .eq-manifesto{grid-template-columns:1fr;gap:32px 0;padding-top:32px}
+      .eq-manifesto-divider{display:none}
+
+      /* ── SEC6 MÉTODO ── */
+      .s6-hdr{grid-template-columns:1fr;gap:16px;margin-bottom:48px}
+      .s6-pillar{grid-template-columns:48px 1fr;gap:0 20px}
+      .s6-right{grid-column:2}
+      .s6-num{font-size:2rem}
+
+      /* ── FOOTER ── */
+      .fg{grid-template-columns:1fr;gap:28px}
+      .fbot{flex-direction:column;text-align:center;gap:10px}
+    }
+  </style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K28KHX6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="ann"><span>🔒 Exclusivo para operações acima de R$ 350K/mês</span></div>
+
+<header id="hdr">
+  <div class="container">
+    <div class="hdr">
+      <a href="#" class="logo"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-fe4d3117f64279b31ad04f60eaf8b76b.png" alt="F5 Estratégia" style="height:36px;width:auto"/></a>
+      <nav>
+        <a onclick="goTo('cases')">Cases</a>
+        <a onclick="goTo('chavi')">CHAVI</a>
+        <a onclick="goTo('metodo')">Método</a>
+      </nav>
+      <button class="btn hdr-cta" onclick="goTo('contato')">
+        Solicitar Diagnóstico
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+      <button class="ham" onclick="toggleMob()"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mob" id="mob">
+  <a onclick="goTo('cases')">Cases</a>
+  <a onclick="goTo('chavi')">CHAVI</a>
+  <a onclick="goTo('metodo')">Método</a>
+  <a onclick="goTo('contato')">Contato</a>
+  <button class="btn" onclick="goTo('contato')">Solicitar Diagnóstico <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hg">
+      <div class="hcopy">
+        <div class="tag t-org">Parceiro Estratégico de Escala</div>
+        <h1>O próximo nível de escala para operações que já faturam acima de <span class="org">R$ 350k/mês.</span></h1>
+        <p>Não entregamos "marketing". Implementamos a <strong>engenharia de dados e a estratégia de autoridade</strong> que transformam empresas maduras em líderes de mercado.</p>
+        <div class="mets">
+          <div class="met anim d1"><div class="metv">+3.000</div><div class="metl">Empresas atendidas</div></div>
+          <div class="met anim d2"><div class="metv">R$350k+</div><div class="metl">Faturamento mínimo</div></div>
+          <div class="met anim d3"><div class="metv">200+</div><div class="metl">Cases de sucesso</div></div>
+        </div>
+      </div>
+      <div class="fwrap">
+        <div class="fcard" id="contato">
+          <h3>Solicitar Diagnóstico de Escala</h3>
+          <p class="fsub">Exclusivo para operações acima de R$ 350k/mês</p>
+          <form id="lform" onsubmit="handleSub(event)">
+            <div class="field"><input type="text" id="nome" name="nome" placeholder=" " required/><label for="nome">Nome completo</label></div>
+            <div class="field"><input type="email" id="email" name="email" placeholder=" " required/><label for="email">E-mail profissional</label></div>
+            <div class="field"><input type="tel" id="tel" name="telefone" placeholder=" " required maxlength="15" oninput="fmtP(this)"/><label for="tel">WhatsApp</label></div>
+            <div class="field"><input type="text" id="emp" name="empresa" placeholder=" " required/><label for="emp">Nome da empresa</label></div>
+            <div class="field">
+              <label class="slbl" for="fat">Faturamento mensal atual</label>
+              <select id="fat" name="faturamento" required>
+                <option value="" disabled selected>Selecione uma faixa</option>
+                <option>R$ 350k a R$ 500k</option>
+                <option>R$ 500k a R$ 1M</option>
+                <option>R$ 1M a R$ 5M</option>
+                <option>Acima de R$ 5M</option>
+              </select>
+            </div>
+            <div class="field"><textarea id="des" name="desafio" placeholder="Qual o principal desafio de escala da sua operação?" required rows="3"></textarea></div>
+            <button type="submit" class="bsub" id="sbtn">
+              <span id="btxt">SOLICITAR DIAGNÓSTICO DE ESCALA</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <p class="disc">🔒 Seus dados estão protegidos. Resposta em até 2h úteis.</p>
+          </form>
+          <div class="bwrap">
+            <p>Parceiros Oficiais:</p>
+            <div class="brow">
+              <div class="badge"><img src="https://eyclick.com/wp-content/uploads/2022/08/google-Partner-EYClick-Agencia-Marketing-Digital-barcelona-madrid.png" alt="Google Partner"/></div>
+              <div class="badge"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-27fb3c7615df6502a41c530e88010411.png" alt="Meta Partner"/></div>
+              <div class="badge"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-f5a2eb004338ec03270940c6650bd3e4.png" alt="RD Station"/></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEÇÃO 2: PARCEIROS -->
+<div class="sec2">
+  <div class="container">
+    <div class="sec2-grid">
+      <!-- Esquerda: header + FAQ -->
+      <div class="sec2-left anim">
+        <div class="tag t-org" style="margin-bottom:20px">Parceiros de Negócio</div>
+        <h2 style="margin-bottom:14px">Não somos uma agência, somos seus <span class="org">parceiros de negócio</span></h2>
+        <p style="font-size:16px;color:var(--t2);line-height:1.7;margin-bottom:36px">A F5 joga junto no dia a dia da sua operação — diagnóstico, execução e escala.</p>
+        <div class="faq-list">
+          <div class="faq-item anim d1">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              <div class="faq-q-left">
+                <div class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div>
+                <span>Visão de Raio-X</span>
+              </div>
+              <svg class="faq-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a">Identificamos os gargalos no seu funil que estão queimando o seu lucro.</div>
+          </div>
+          <div class="faq-item anim d2">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              <div class="faq-q-left">
+                <div class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                <span>Capacitação de Time</span>
+              </div>
+              <svg class="faq-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a">Treinamos e alinhamos o seu time comercial para converter o volume de demanda que nossa estratégia gera.</div>
+          </div>
+          <div class="faq-item anim d3">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              <div class="faq-q-left">
+                <div class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></div>
+                <span>Engenharia de Conversão</span>
+              </div>
+              <svg class="faq-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a">Ajustamos seus canais orgânicos e digitais para que a sua empresa seja vista como autoridade máxima no setor.</div>
+          </div>
+          <div class="faq-item anim d4">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              <div class="faq-q-left">
+                <div class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"/></svg></div>
+                <span>Empresas acima de R$ 350k/mês</span>
+              </div>
+              <svg class="faq-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a">Empresas com faturamento acima de R$ 350k/mês que precisam profissionalizar processos.</div>
+          </div>
+          <div class="faq-item anim d1">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              <div class="faq-q-left">
+                <div class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
+                <span>Times internos com direção estratégica</span>
+              </div>
+              <svg class="faq-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a">Negócios que possuem time interno e precisam de direção estratégica de alto nível.</div>
+          </div>
+          <div class="faq-item anim d2">
+            <button class="faq-q" onclick="toggleFaq(this)">
+              <div class="faq-q-left">
+                <div class="faq-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+                <span>Operações complexas e contratos grandes</span>
+              </div>
+              <svg class="faq-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+            <div class="faq-a">Operações complexas que exigem autoridade e credibilidade digital para fechar grandes contratos.</div>
+          </div>
+        </div>
+      </div>
+      <!-- Direita: foto 1080x1350 (prop 4:5) -->
+      <div class="sec2-right anim d2">
+        <div class="sec2-photo">
+          <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-b9053b20a1cb556595d42bb94a2db740.png" alt="F5 Estratégia — Parceiros de Negócio"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- SEÇÃO 4: CHAVI Apple scroll -->
+<div class="sec4" id="chavi">
+  <div class="chavi-intro">
+    <div class="tag t-inv" style="margin-bottom:18px">Metodologia Exclusiva</div>
+    <h2 style="color:#fff">O método <span class="org">CHAVI</span> que transforma<br/>clínicas em líderes de mercado</h2>
+    <p style="color:rgba(255,255,255,.45);font-size:16px;margin-top:16px;line-height:1.7">5 pilares integrados. Role para conhecer cada um.</p>
+  </div>
+  <div class="chavi-scroll" id="chaviScroll">
+    <div class="chavi-pin" id="chaviPin">
+      <!-- Ornamentos -->
+      <div class="chavi-orb" id="chaviOrb"></div>
+      <div class="chavi-orb2" id="chaviOrb2"></div>
+      <!-- CHAVI word indicator -->
+      <div class="chavi-word" id="chaviWord">
+        <span class="cw" data-i="0">C</span><span class="cw" data-i="1">H</span><span class="cw" data-i="2">A</span><span class="cw" data-i="3">V</span><span class="cw" data-i="4">I</span>
+      </div>
+      <!-- Número -->
+      <div class="chavi-num" id="chaviNum">01 / 05</div>
+      <!-- Letra gigante -->
+      <div class="chavi-gl" id="chaviGL">C</div>
+      <!-- Nome + Descrição -->
+      <div class="chavi-txt">
+        <div class="chavi-txt-name" id="chaviTxtName">Captura</div>
+        <div class="chavi-txt-desc" id="chaviTxtDesc">Atração de leads qualificados de alta intenção</div>
+      </div>
+      <!-- Dots -->
+      <div class="chavi-dots" id="chaviDots"></div>
+    </div>
+  </div>
+</div>
+
+<!-- SEÇÃO 5: CASES CARROSSEL -->
+<div class="sec3" id="cases">
+  <div class="container">
+    <div class="shdr anim">
+      <div class="tag t-inv">Resultados Reais</div>
+      <h2 style="color:#fff">Inteligência Operacional em Ação<br/><span style="color:rgba(255,255,255,.7)">(Os Ganhos Reais)</span></h2>
+      <p style="color:rgba(255,255,255,.55);max-width:540px;margin:0 auto">Números reais de clientes reais — sem promessas vazias.</p>
+    </div>
+    <div>
+      <div class="car-outer">
+        <div class="carousel" id="car">
+
+          <!-- CARD 1: OdontoTop -->
+          <div class="cc">
+            <div class="csec-label">Franquias &amp; Expansão</div>
+            <div class="cphoto" id="cphoto0">
+              <div class="cphoto-slides" id="cslides0">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-3a17dc9bbe8158d8fa60936399e0015f.jpeg" alt="OdontoTop 1"/></div>
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-e88e57ffe3f41773854a42cf66a89382.jpg" alt="OdontoTop 2"/></div>
+              </div>
+              <div class="cphoto-logo">
+                <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-ed23a11a3b77508349efc7aad7b71121.png" alt="OdontoTop"/>
+              </div>
+              <div class="cphoto-dots" id="cdots0">
+                <div class="cphoto-dot on"></div>
+                <div class="cphoto-dot"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">OdontoTop Franchising</div>
+              <div class="chead">Expansão de Franquias e<br/>Aceleração de Ciclo.</div>
+              <div class="csub">Estruturação completa do funil de franquias com redução drástica no tempo de fechamento.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$6MI</div>
+                  <div class="cstat-lbl">Faturamento em 12 meses</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">-69%</div>
+                  <div class="cstat-lbl">Redução no ciclo de vendas</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p>Ciclo de vendas reduzido de <strong>45 para 14 dias</strong> com alinhamento entre marketing e comercial.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: PBL Compras -->
+          <div class="cc">
+            <div class="csec-label">Negócios Complexos &amp; High Ticket</div>
+            <div class="cphoto" id="cphoto1">
+              <div class="cphoto-slides" id="cslides1">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-5282cb04023a249776fbb4661ecd8c22.png" alt="PBL Compras"/></div>
+              </div>
+              <div class="cphoto-logo" style="background:rgba(255,255,255,.95)">
+                <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-c769549e4307eebd6548f17a2cb66ce6.png" alt="PBL Compras"/>
+              </div>
+              <div class="cphoto-dots" id="cdots1">
+                <div class="cphoto-dot on"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">PBL Compras · FIDC Próprio</div>
+              <div class="chead">Da Invisibilidade à<br/>Autoridade Digital.</div>
+              <div class="csub">5 anos com zero presença digital. Clientes suspeitavam de fraude. A F5 aplicou Engenharia de SEO e Autoridade Orgânica — sem investir em ads.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$7,1MI</div>
+                  <div class="cstat-lbl">Gerados pelo orgânico em 1 ano</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">R$21,8MI</div>
+                  <div class="cstat-lbl">Faturamento (era R$14,3MI)</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p>Salto de <strong>R$ 14,3M → R$ 21,8M</strong> de faturamento exclusivamente via estratégia orgânica.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3: Habitat Negócios -->
+          <div class="cc">
+            <div class="csec-label">Negócios Complexos &amp; High Ticket</div>
+            <div class="cphoto" id="cphoto2">
+              <div class="cphoto-slides" id="cslides2">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-6cb5900619b4358e529fbe80ddf36fe0.png" alt="Habitat"/></div>
+              </div>
+              <div class="cphoto-logo" style="background:rgba(255,255,255,.95)">
+                <img src="https://img.apresenta.me/M7YtVkvPK9AzNUtKjI_Pzy8uTi0qyM2Mz0-Pz4lPTU8EMuPji-JzEsvi0zPT8vKT9SGUbaaaiYGxqW0yAA.png" alt="Habitat"/>
+              </div>
+              <div class="cphoto-dots" id="cdots2">
+                <div class="cphoto-dot on"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">Habitat Negócios Imobiliários</div>
+              <div class="chead">Quebra de Barreira<br/>em Vendas Digitais.</div>
+              <div class="csub">Nunca haviam vendido através de leads de tráfego pago até a chegada da F5. Aumento drástico no volume e qualificação de leads via Meta Ads.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$1,29MI</div>
+                  <div class="cstat-lbl">Em vendas · Jan/26</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">325,9x</div>
+                  <div class="cstat-lbl">ROI</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p>Primeira venda via leads digitais na história da empresa — resultado no primeiro mês de operação.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 4: UniBTA -->
+          <div class="cc">
+            <div class="csec-label">Educação</div>
+            <div class="cphoto" id="cphoto3">
+              <div class="cphoto-slides" id="cslides3">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-7868924c13a2038bcce1baa6cfc7b90e.png" alt="UniBTA"/></div>
+              </div>
+              <div class="cphoto-logo" style="background:rgba(255,255,255,.95)">
+                <img src="https://unibtadigital.com.br/imgs/unibta_digital_logo.png" alt="UniBTA"/>
+              </div>
+              <div class="cphoto-dots" id="cdots3">
+                <div class="cphoto-dot on"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">UniBTA · Educação Superior</div>
+              <div class="chead">Expansão de Base e<br/>Faturamento Recorrente.</div>
+              <div class="csub">1.203 leads gerados com CPL de R$ 9,14. Funil de captação de matrículas estruturado do topo ao fechamento.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$6,9MI</div>
+                  <div class="cstat-lbl">Em novas matrículas acumuladas</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">156x</div>
+                  <div class="cstat-lbl">ROI da campanha</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p><strong>1.203 leads</strong> com CPL de apenas <strong>R$ 9,14</strong> — custo por lead 10x abaixo da média do setor.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 5: Gamaliel -->
+          <div class="cc">
+            <div class="csec-label">Educação</div>
+            <div class="cphoto" id="cphoto4">
+              <div class="cphoto-slides" id="cslides4">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-65b44823ba89bf010269c16e06f5dd3a.jpeg" alt="Faculdade Gamaliel"/></div>
+              </div>
+              <div class="cphoto-logo" style="background:rgba(255,255,255,.95)">
+                <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-d18e0b33a3794bec2d9ba9106077f32b.png" alt="Faculdade Gamaliel"/>
+              </div>
+              <div class="cphoto-dots" id="cdots4">
+                <div class="cphoto-dot on"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">Faculdade Gamaliel · Graduação</div>
+              <div class="chead">Funil Otimizado<br/>para Graduação.</div>
+              <div class="csub">Gestão de tráfego híbrida (Google + Meta) com foco em acompanhamento comercial e qualificação de leads para graduação presencial.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$3,5MI</div>
+                  <div class="cstat-lbl">Em faturamento</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">17x</div>
+                  <div class="cstat-lbl">ROI</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p>Funil híbrido <strong>Google + Meta</strong> com acompanhamento comercial estruturado do lead à matrícula.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 6: Viva Odontologia -->
+          <div class="cc">
+            <div class="csec-label">Saúde &amp; Odontologia</div>
+            <div class="cphoto" id="cphoto5">
+              <div class="cphoto-slides" id="cslides5">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-05a4ba2d35b06a578164c46a442a0963.png" alt="Viva Odontologia"/></div>
+              </div>
+              <div class="cphoto-logo" style="background:rgba(255,255,255,.95)">
+                <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-a4588247e542b0e71e47d2fbe2952326.png" alt="Viva Odontologia"/>
+              </div>
+              <div class="cphoto-dots" id="cdots5">
+                <div class="cphoto-dot on"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">Viva Odontologia · Saúde</div>
+              <div class="chead">Domínio de Mercado<br/>em Saúde/Odontologia.</div>
+              <div class="csub">Aplicação total do Método CHAVI (F1 ao F5). Investimento médio de R$ 15k/mês com retorno exponencial em menos de 1 ano.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$3,85MI</div>
+                  <div class="cstat-lbl">Faturamento em menos de 1 ano</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">27,11x</div>
+                  <div class="cstat-lbl">ROI</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p>Investimento total de <strong>R$ 124.294</strong> (≈ R$ 15k/mês) com retorno de <strong>R$ 3,85 Milhões</strong>.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 7: Temakin Sushi -->
+          <div class="cc">
+            <div class="csec-label">Delivery &amp; Negócio Local</div>
+            <div class="cphoto" id="cphoto6">
+              <div class="cphoto-slides" id="cslides6">
+                <div class="cphoto-slide"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-0f310125f006438a99bdec111b02b3e7.webp" alt="Temakin Sushi"/></div>
+              </div>
+              <div class="cphoto-logo" style="background:rgba(255,255,255,.95)">
+                <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-628afe4b4391190c93a9051c6e25c06d.png" alt="Temakin Sushi"/>
+              </div>
+              <div class="cphoto-dots" id="cdots6">
+                <div class="cphoto-dot on"></div>
+              </div>
+            </div>
+            <div class="cbody">
+              <div class="ctag">Temakin Sushi · Delivery Local</div>
+              <div class="chead">Alavancagem de Unidade<br/>e Crescimento de Giro.</div>
+              <div class="csub">Estratégia de tráfego local para unidade Pedra Branca com foco em volume de pedidos e recorrência de cliente.</div>
+              <div class="cstats">
+                <div class="cstat">
+                  <div class="cstat-val">R$248k</div>
+                  <div class="cstat-lbl">Faturados no período</div>
+                </div>
+                <div class="cstat">
+                  <div class="cstat-val">11,87x</div>
+                  <div class="cstat-lbl">ROI · Unidade Pedra Branca</div>
+                </div>
+              </div>
+              <div class="cdestaque">
+                <p><strong>+19% no faturamento</strong> e <strong>+17% no volume de pedidos</strong> na unidade Pedra Branca.</p>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /carousel -->
+      </div><!-- /car-outer -->
+      <div class="cctrl">
+        <button class="cbtn" onclick="cmove(-1)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg></button>
+        <div class="cdots" id="cdots"></div>
+        <button class="cbtn" onclick="cmove(1)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEÇÃO 6: MÉTODO DARK — Editorial premium -->
+<div class="sec6" id="metodo">
+  <div class="container">
+
+    <!-- HEADER ASSIMÉTRICO -->
+    <div class="s6-hdr anim">
+      <div>
+        <div class="s6-tag">O Poder do Método</div>
+        <h2 class="s6-h2">O que trouxe sua empresa<br/>até aqui, não é o que vai<br/>levá-la ao <em>próximo nível.</em></h2>
+      </div>
+      <p class="s6-sub">Três pilares que separam operações que crescem de operações que dependem de sorte.</p>
+    </div>
+
+    <!-- PILARES EM LINHAS HORIZONTAIS -->
+    <div class="s6-pillars">
+
+      <div class="s6-pillar anim d1">
+        <div class="s6-num">01</div>
+        <div class="s6-left">
+          <div class="s6-title">Engenharia de Dados</div>
+          <div class="s6-badge">Previsibilidade de ROI</div>
+        </div>
+        <div class="s6-right">
+          <div class="s6-desc">Substituímos o "marketing de esperança" por previsibilidade de ROI e funis completamente estruturados. Cada decisão guiada por número, não por intuição.</div>
+        </div>
+      </div>
+
+      <div class="s6-pillar anim d2">
+        <div class="s6-num">02</div>
+        <div class="s6-left">
+          <div class="s6-title">Autoridade Digital</div>
+          <div class="s6-badge">Objeções eliminadas</div>
+        </div>
+        <div class="s6-right">
+          <div class="s6-desc">Construímos uma presença digital tão robusta que as objeções de vendas desaparecem antes da primeira reunião. Seu cliente chega convencido.</div>
+        </div>
+      </div>
+
+      <div class="s6-pillar anim d3">
+        <div class="s6-num">03</div>
+        <div class="s6-left">
+          <div class="s6-title">Escala Sem Dependência</div>
+          <div class="s6-badge">Crescimento estrutural</div>
+        </div>
+        <div class="s6-right">
+          <div class="s6-desc">Estratégias que geram crescimento real através de tráfego de alta intenção ou autoridade orgânica consolidada. Sem depender de um único canal.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- SEÇÃO EQUIPE: DNA Estratégico -->
+<style>
+  /* ===== SEÇÃO EQUIPE — Editorial sem retângulos ===== */
+  .sec-equipe{
+    background:var(--org);
+    position:relative;
+    overflow:hidden;
+    padding:100px 0 0;
+  }
+  .sec-equipe::before{
+    content:'';position:absolute;inset:0;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='nq'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23nq)' opacity='0.06'/%3E%3C/svg%3E");
+    pointer-events:none;z-index:0;
+  }
+  .sec-equipe::after{
+    content:'';position:absolute;top:-120px;left:50%;transform:translateX(-50%);
+    width:700px;height:400px;
+    background:radial-gradient(ellipse,rgba(255,255,255,.12) 0%,transparent 70%);
+    pointer-events:none;z-index:0;
+  }
+  .eq-inner{position:relative;z-index:1;max-width:1100px;margin:0 auto;padding:0 40px;}
+
+  .eq-tag{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);
+    border-radius:100px;padding:6px 18px;
+    font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+    color:#fff;margin-bottom:40px;backdrop-filter:blur(6px);
+  }
+  .eq-tag span{width:6px;height:6px;border-radius:50%;background:#fff;display:inline-block;animation:blink 1.4s ease-in-out infinite;}
+
+  .eq-headline{
+    font-family:'iBrand Regular','ui-sans-serif',sans-serif;
+    font-size:clamp(2rem,4.5vw,3.8rem);
+    color:#fff;line-height:1.1;letter-spacing:-.02em;
+    max-width:820px;margin:0 0 72px;
+  }
+  .eq-headline em{font-style:normal;position:relative;display:inline-block;}
+  .eq-headline em::after{
+    content:'';position:absolute;bottom:-4px;left:0;right:0;height:3px;
+    background:rgba(255,255,255,.5);border-radius:2px;
+    transform:scaleX(0);transform-origin:left;transition:transform .6s ease;
+  }
+  .eq-headline em.reveal::after{transform:scaleX(1);}
+
+  /* LINHA DIVISÓRIA ANIMADA */
+  .eq-rule{
+    width:100%;height:1px;
+    background:linear-gradient(90deg,rgba(255,255,255,.6),rgba(255,255,255,.04));
+    margin-bottom:0;
+    transform-origin:left;transform:scaleX(0);
+    transition:transform .9s cubic-bezier(.16,1,.3,1);
+  }
+  .eq-rule.on{transform:scaleX(1);}
+
+  /* STATS GIGANTES — sem caixas */
+  .eq-stats{
+    display:flex;gap:0;margin-bottom:72px;
+    border-bottom:1px solid rgba(255,255,255,.13);
+  }
+  .eq-stat{
+    flex:1;padding:44px 0 44px;
+    border-right:1px solid rgba(255,255,255,.13);
+    cursor:default;transition:background .3s;
+  }
+  .eq-stat:last-child{border-right:none;}
+  .eq-stat:hover{background:rgba(255,255,255,.04);}
+  .eq-stat:nth-child(2),.eq-stat:nth-child(3),.eq-stat:nth-child(4){padding-left:40px;}
+  .eq-stat-num{
+    font-family:'iBrand','Poppins',sans-serif;
+    font-size:clamp(3.5rem,7vw,6rem);
+    color:#fff;line-height:1;letter-spacing:-.03em;margin-bottom:10px;
+    transition:transform .4s cubic-bezier(.16,1,.3,1);
+  }
+  .eq-stat:hover .eq-stat-num{transform:translateY(-4px);}
+  .eq-stat-label{
+    font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+    color:rgba(255,255,255,.4);max-width:160px;line-height:1.5;
+  }
+
+  /* MANIFESTO COLUNAS ASSIMÉTRICAS */
+  .eq-manifesto{
+    display:grid;grid-template-columns:1fr 1px 1fr;
+    gap:0 56px;margin-bottom:80px;align-items:start;padding-top:64px;
+  }
+  .eq-manifesto-divider{
+    background:linear-gradient(to bottom,rgba(255,255,255,.28),rgba(255,255,255,.03));
+    align-self:stretch;
+  }
+  .eq-kicker{
+    font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+    color:rgba(255,255,255,.38);margin-bottom:18px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .eq-kicker::before{content:'';display:inline-block;width:22px;height:1px;background:rgba(255,255,255,.38);}
+  .eq-body{
+    font-size:clamp(15px,1.5vw,17px);color:rgba(255,255,255,.76);
+    line-height:1.82;font-weight:400;
+  }
+  .eq-body strong{color:#fff;font-weight:600;}
+
+  /* DESTAQUE PRIME — linha vertical, sem caixa */
+  .eq-prime-solo{
+    margin-top:44px;padding-top:44px;
+    border-top:1px solid rgba(255,255,255,.12);
+    display:flex;align-items:flex-start;gap:18px;
+  }
+  .eq-prime-bar{
+    flex-shrink:0;width:2px;min-height:80px;
+    background:linear-gradient(to bottom,rgba(255,255,255,.7),rgba(255,255,255,.04));
+    border-radius:2px;margin-top:4px;
+  }
+  .eq-prime-eyebrow{
+    font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;
+    color:rgba(255,255,255,.32);margin-bottom:10px;
+  }
+  .eq-prime-body{
+    font-size:14px;color:rgba(255,255,255,.58);line-height:1.82;
+  }
+  .eq-prime-body strong{color:#fff;}
+
+  /* FOTO */
+  .eq-photo-wrap{position:relative;display:flex;justify-content:center;margin-top:8px;}
+  .eq-photo-wrap img{width:100%;max-width:860px;display:block;object-fit:cover;object-position:top;position:relative;z-index:1;}
+  .eq-photo-wrap::after{
+    content:'';position:absolute;bottom:0;left:0;right:0;height:40%;
+    background:linear-gradient(to bottom,transparent,var(--org));
+    z-index:2;pointer-events:none;
+  }
+  .eq-names{
+    position:absolute;bottom:60px;left:50%;transform:translateX(-50%);
+    display:flex;gap:clamp(60px,10vw,140px);z-index:3;white-space:nowrap;
+  }
+  .eq-name{text-align:center;}
+  .eq-name strong{display:block;font-size:15px;font-weight:700;color:#fff;letter-spacing:.04em;}
+  .eq-name span{font-size:11px;color:rgba(255,255,255,.6);letter-spacing:.08em;text-transform:uppercase;}
+
+  @media(max-width:768px){
+    .eq-inner{padding:0 20px;}
+    .eq-stats{flex-wrap:wrap;}
+    .eq-stat{flex:0 0 50%;border-right:none;border-bottom:1px solid rgba(255,255,255,.1);padding:20px 0;}
+    .eq-stat:nth-child(n){padding-left:0;}
+    .eq-stat-num{font-size:2.8rem;}
+    .eq-manifesto{grid-template-columns:1fr;gap:32px 0;padding-top:32px;}
+    .eq-manifesto-divider{display:none;}
+    /* Nomes flutuantes viram bloco abaixo da foto */
+    .eq-names{
+      position:relative;
+      bottom:auto;left:auto;transform:none;
+      display:flex;flex-wrap:wrap;
+      justify-content:center;
+      gap:16px 28px;
+      padding:20px 16px 32px;
+      background:var(--org);
+      width:100%;
+      white-space:normal;
+    }
+    .eq-photo-wrap::after{height:20%;}
+  }
+</style>
+
+<div class="sec-equipe">
+  <div class="eq-inner">
+    <div style="text-align:center;margin-bottom:72px">
+      <div class="eq-tag" style="display:inline-flex;margin-bottom:24px"><span></span>Quem está por trás do método</div>
+      <h2 class="eq-headline" id="eqHead" style="max-width:100%;margin:0 auto;text-align:center">
+        Inteligência Estratégica com o DNA<br/>de quem <em id="eqEm">constrói o Mercado.</em>
+      </h2>
+    </div>
+
+    <!-- LINHA ANIMADA -->
+    <div class="eq-rule" id="eqRule"></div>
+
+    <!-- STATS GIGANTES SEM CAIXAS -->
+    <div class="eq-stats">
+      <div class="eq-stat">
+        <div class="eq-stat-num">+3k</div>
+        <div class="eq-stat-label">Empresas aceleradas</div>
+      </div>
+      <div class="eq-stat">
+        <div class="eq-stat-num">22</div>
+        <div class="eq-stat-label">Anos de DNA odontológico</div>
+      </div>
+      <div class="eq-stat">
+        <div class="eq-stat-num">200k+</div>
+        <div class="eq-stat-label">Leads qualificados gerados</div>
+      </div>
+      <div class="eq-stat">
+        <div class="eq-stat-num">3</div>
+        <div class="eq-stat-label">Fundadores, um método</div>
+      </div>
+    </div>
+
+    <!-- MANIFESTO EM COLUNAS ASSIMÉTRICAS -->
+    <div class="eq-manifesto">
+      <div class="eq-col-left">
+        <div class="eq-kicker">Quem somos</div>
+        <div class="eq-body">
+          A F5 não é uma agência de marketing. Somos uma <strong>aceleradora de operações odontológicas</strong> que une engenharia de dados à experiência de mercado do Grupo Prime.<br/><br/>
+          Enquanto o mercado entrega leads, nós entregamos um <strong>Método Validado</strong> — um sistema completo de escala que trata seu negócio como o ativo que ele é.
+        </div>
+      </div>
+      <div class="eq-manifesto-divider"></div>
+      <div class="eq-col-right">
+        <div class="eq-kicker">O que entregamos</div>
+        <div class="eq-body">
+          Sob a liderança de <strong>Fernando, Arthur e Elias</strong>, a F5 nasceu para resolver o que as agências comuns ignoram: o <strong>lucro real</strong>.
+        </div>
+        <div class="eq-prime-solo">
+          <div class="eq-prime-bar"></div>
+          <div>
+            <div class="eq-prime-eyebrow">Grupo Prime · 22 anos de mercado</div>
+            <div class="eq-prime-body">
+              Chancelada pelo <strong>Grupo Prime (Elias)</strong>, referência na construção e entrega de clínicas <em style="font-style:italic;color:rgba(255,255,255,.75)">'chave na mão'</em> em todo o Brasil — nos permitindo entender sua operação de dentro para fora, da planta à conversão do paciente de alto ticket.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOTO EQUIPE -->
+  <div class="eq-photo-wrap">
+    <img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-ff6e5427d226bafcad920652733d1f86.png" alt="Equipe F5 Estratégia"/>
+    <div class="eq-names">
+      <div class="eq-name"><strong>Fernando</strong><span>Co-fundador</span></div>
+      <div class="eq-name"><strong>Elias</strong><span>Grupo Prime · Co-fundador</span></div>
+      <div class="eq-name"><strong>Arthur</strong><span>Co-fundador</span></div>
+    </div>
+  </div>
+</div>
+
+<script>
+const eqEm = document.getElementById('eqEm');
+if(eqEm){
+  const obs = new IntersectionObserver(entries=>{
+    if(entries[0].isIntersecting){eqEm.classList.add('reveal');obs.disconnect();}
+  },{threshold:.5});
+  obs.observe(eqEm);
+}
+const eqRule = document.getElementById('eqRule');
+if(eqRule){
+  const obsR = new IntersectionObserver(entries=>{
+    if(entries[0].isIntersecting){eqRule.classList.add('on');obsR.disconnect();}
+  },{threshold:.3});
+  obsR.observe(eqRule);
+}
+</script>
+
+<!-- SEÇÃO 7: LOGOS PARCEIROS (dark premium) -->
+<div class="sec7">
+  <div class="container">
+    <div class="shdr anim">
+      <div class="tag t-inv">Ecossistema F5</div>
+      <h2>Parceiros que <span class="org">confiam</span> no método</h2>
+      <p>Grandes players do mercado odontológico e de negócios que escolheram a F5 como parceiro estratégico.</p>
+    </div>
+  </div>
+  <div class="logo-track-wrap anim">
+    <div class="logo-track">
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-c769549e4307eebd6548f17a2cb66ce6.png" alt="PBL Compras"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-7e1911ea603645b3808dc2a67c1b21ff.png" alt="Intelbras"/></div>
+      <div class="lc"><img src="https://www.clinicaodontotop.com.br/img/website/logo_original.svg" alt="OdontoTop"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-9396d5a1aca47ea634ca57a9b1fc1e70.png" alt="Oral Unic"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-10b49348f7cc4ab3b187b242f3a1dff3.png" alt="Pizza Prime"/></div>
+      <div class="lc"><img src="https://www.shoppingitaguacu.com.br/wp-content/themes/shopping/assets/images/logo-itaguacu.svg" alt="Shopping Itaguaçu"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-c769549e4307eebd6548f17a2cb66ce6.png" alt="PBL Compras"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-7e1911ea603645b3808dc2a67c1b21ff.png" alt="Intelbras"/></div>
+      <div class="lc"><img src="https://www.clinicaodontotop.com.br/img/website/logo_original.svg" alt="OdontoTop"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-9396d5a1aca47ea634ca57a9b1fc1e70.png" alt="Oral Unic"/></div>
+      <div class="lc"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-10b49348f7cc4ab3b187b242f3a1dff3.png" alt="Pizza Prime"/></div>
+      <div class="lc"><img src="https://www.shoppingitaguacu.com.br/wp-content/themes/shopping/assets/images/logo-itaguacu.svg" alt="Shopping Itaguaçu"/></div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA FINAL -->
+<div class="sec8">
+  <div class="container" style="position:relative">
+    <h2 class="anim">Pare de gerenciar agências. Comece a <span class="org">escalar sua operação.</span></h2>
+    <p class="anim d1">Atendimento exclusivo para assessorias Pro e Prime.</p>
+    <button class="btn btn-lg anim d2" onclick="goTo('contato')">
+      SOLICITAR DIAGNÓSTICO DE ESCALA
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="fg">
+      <div>
+        <a href="#" class="flogo"><img src="https://files.greatpages.com.br/arquivos/paginas_editor/24366-a3131138844dce028efc24845efe225c.png" alt="F5 Estratégia" style="height:36px;width:auto"/></a>
+        <p class="fdesc">Parceiros estratégicos de escala para operações que buscam liderança de mercado.</p>
+      </div>
+      <div class="fcol">
+        <h4>Soluções</h4>
+        <ul>
+          <li><a href="#">Sistema F5</a></li>
+          <li><a href="#">Cases de Sucesso</a></li>
+          <li><a href="#">Método CHAVI</a></li>
+          <li><a href="#">Nosso Ecossistema</a></li>
+        </ul>
+      </div>
+      <div class="fcol">
+        <h4>Contato</h4>
+        <ul>
+          <li><div class="fct"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6b0804051f0a1f042b0d5e0e181f190a1f0e0c020a45080406">[email&#160;protected]</a></div></li>
+          <li><div class="fct"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Florianópolis, SC</div></li>
+        </ul>
+      </div>
+    </div>
+    <div class="fbot">
+      <p>© 2024 f5 estratégia. Todos os direitos reservados.</p>
+      <div class="flnk"><a href="#">Política de Privacidade</a><a href="#">Termos de Uso</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast"><div class="tt" id="tt"></div><div class="tm" id="tm"></div></div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script>
+  const {createClient}=supabase;
+  const sb=createClient('https://imotgvapfkebngteuccf.supabase.co','sb_publishable_mi9bRUedT95_q2oGRMaZ8w_Xqvm4_zV');
+
+  function goTo(id){const el=document.getElementById(id);if(el)window.scrollTo({top:el.offsetTop-90,behavior:'smooth'});closeMob();}
+  window.addEventListener('scroll',()=>document.getElementById('hdr').classList.toggle('scrolled',scrollY>50));
+  function toggleMob(){document.getElementById('mob').classList.toggle('open');}
+  function closeMob(){document.getElementById('mob').classList.remove('open');}
+  function fmtP(i){let v=i.value.replace(/\D/g,'');if(v.length<=10)v=v.replace(/^(\d{2})(\d{4})(\d{0,4}).*/,'($1) $2-$3');else v=v.replace(/^(\d{2})(\d{5})(\d{0,4}).*/,'($1) $2-$3');i.value=v;}
+
+  function showToast(t,m,type='ok'){const el=document.getElementById('toast');document.getElementById('tt').textContent=t;document.getElementById('tm').textContent=m;el.className='toast '+type+' show';setTimeout(()=>el.classList.remove('show'),4200);}
+
+  async function handleSub(e){
+    e.preventDefault();
+    const btn=document.getElementById('sbtn'),txt=document.getElementById('btxt');
+    btn.disabled=true;txt.textContent='Enviando...';
+    try{
+      const f=e.target;
+      const nome=f.nome.value.trim(),email=f.email.value.trim(),tel=f.telefone.value.replace(/\D/g,''),emp=f.empresa.value.trim(),fat=f.faturamento.value,des=f.desafio.value.trim();
+      if(!nome||!email||tel.length<10||!emp||!fat||!des){showToast('Campos obrigatórios','Preencha todos os campos.','err');return;}
+      const p=new URLSearchParams(location.search);
+      let ip='';try{const r=await fetch('https://api.ipify.org?format=json');ip=(await r.json()).ip;}catch{}
+      const ua=navigator.userAgent,dev=/Mobile|Android|iPhone/i.test(ua)?'Mobile':'Desktop';
+      const{error}=await sb.from('leads').insert([{nome,email,telefone:tel,campos_personalizado:{nome_empresa:emp,faturamento_mensal:fat,desafio_principal:des,origem_formulario:'Hero Form'},politicas_privacidade:true,utm_source:p.get('utm_source')||'',utm_medium:p.get('utm_medium')||'',utm_campaign:p.get('utm_campaign')||'',utm_term:p.get('utm_term')||'',utm_content:p.get('utm_content')||'',utm_adgroup:p.get('utm_adgroup')||'',nome_formulario:'Formulário F5 Hero',id_formulario:'form-f5-hero',id_pagina:location.pathname,referral_source:document.referrer||'Direto',url_conversao:location.href,dispositivo:dev,user_agent:ua,ip_usuario:ip,data_conversao:new Date().toISOString(),received_at:new Date().toISOString()}]);
+      if(error)throw error;
+      showToast('Recebemos seu contato!','Nossa equipe entrará em contato em até 2 horas úteis.');
+      f.reset();
+      if(window.dataLayer)dataLayer.push({event:'form_submission',formId:'form-f5-hero'});
+    }catch(err){console.error(err);showToast('Erro ao enviar','Tente novamente em alguns instantes.','err');}
+    finally{btn.disabled=false;txt.textContent='SOLICITAR DIAGNÓSTICO DE ESCALA';}
+  }
+
+  // CHAVI SCROLL-DRIVEN — Apple style
+  const chaviData=[
+    {letter:'C',num:'01',name:'Captura',desc:'Atração de leads qualificados de alta intenção'},
+    {letter:'H',num:'02',name:'Habilitação',desc:'Preparo do time comercial para fechar mais'},
+    {letter:'A',num:'03',name:'Autoridade',desc:'Posicionamento digital que elimina objeções'},
+    {letter:'V',num:'04',name:'Volume',desc:'Escalada previsível sem depender de tráfego pago'},
+    {letter:'I',num:'05',name:'Inteligência',desc:'Dados e automação para decisões sem achismo'},
+  ];
+  let chaviIdx=-1;
+  // Build dots
+  const dotsWrap=document.getElementById('chaviDots');
+  chaviData.forEach((_,i)=>{
+    const d=document.createElement('div');
+    d.className='chavi-dot'+(i===0?' on':'');
+    d.onclick=()=>scrollToChavi(i);
+    dotsWrap.appendChild(d);
+  });
+  function scrollToChavi(i){
+    const scroll=document.getElementById('chaviScroll');
+    const rect=scroll.getBoundingClientRect();
+    const scrollTop=window.scrollY+rect.top;
+    const segH=scroll.offsetHeight/chaviData.length;
+    window.scrollTo({top:scrollTop+segH*i+segH*0.1,behavior:'smooth'});
+  }
+  function setChavi(i){
+    if(i===chaviIdx)return;
+    chaviIdx=i;
+    const d=chaviData[i];
+    const gl=document.getElementById('chaviGL');
+    const nm=document.getElementById('chaviTxtName');
+    const ds=document.getElementById('chaviTxtDesc');
+    const nu=document.getElementById('chaviNum');
+    const orb=document.getElementById('chaviOrb');
+    const orb2=document.getElementById('chaviOrb2');
+    // fade out
+    gl.style.opacity='0'; gl.style.transform='scale(.85) translateY(12px)';
+    nm.style.opacity='0'; nm.style.transform='translateY(10px)';
+    ds.style.opacity='0';
+    setTimeout(()=>{
+      gl.textContent=d.letter;
+      nm.textContent=d.name;
+      ds.textContent=d.desc;
+      nu.textContent=d.num+' / 05';
+      gl.style.opacity='1'; gl.style.transform='scale(1) translateY(0)';
+      nm.style.opacity='1'; nm.style.transform='translateY(0)';
+      ds.style.opacity='1';
+    },180);
+    // orb rotation
+    const angle=i*72;
+    orb.style.transform=`rotate(${angle}deg) scale(${0.9+i*0.04})`;
+    orb2.style.transform=`rotate(${-angle}deg) scale(${1+i*0.02})`;
+    // word indicator
+    document.querySelectorAll('.cw').forEach((c,j)=>c.classList.toggle('on',j===i));
+    // dots
+    document.querySelectorAll('.chavi-dot').forEach((d,j)=>d.classList.toggle('on',j===i));
+  }
+  function onScrollChavi(){
+    const scroll=document.getElementById('chaviScroll');
+    const rect=scroll.getBoundingClientRect();
+    const total=scroll.offsetHeight;
+    const progress=Math.max(0,Math.min(1,-rect.top/( total - window.innerHeight)));
+    const idx=Math.min(chaviData.length-1,Math.floor(progress*chaviData.length));
+    setChavi(idx);
+  }
+  window.addEventListener('scroll',onScrollChavi,{passive:true});
+  setTimeout(()=>setChavi(0),100);
+
+  // FAQ
+  function toggleFaq(btn){
+    const item=btn.closest('.faq-item');
+    const ans=item.querySelector('.faq-a');
+    const isOpen=btn.classList.contains('open');
+    document.querySelectorAll('.faq-q.open').forEach(b=>{b.classList.remove('open');b.closest('.faq-item').querySelector('.faq-a').classList.remove('open')});
+    if(!isOpen){btn.classList.add('open');ans.classList.add('open')}
+  }
+
+  // FOTO LOOP — carrossel de fotos por card
+  function initPhotoLoop(id, total) {
+    if(total < 2) return;
+    let idx = 0;
+    setInterval(() => {
+      idx = (idx + 1) % total;
+      const slides = document.getElementById('cslides' + id);
+      const dots = document.querySelectorAll('#cdots' + id + ' .cphoto-dot');
+      if(slides) slides.style.transform = 'translateX(-' + (idx * 100) + '%)';
+      dots.forEach((d, i) => d.classList.toggle('on', i === idx));
+    }, 3200);
+  }
+  // Init: OdontoTop tem 2 fotos, demais 1
+  initPhotoLoop(0, 2);
+
+  // CAROUSEL
+  let ci=0;
+  const car=document.getElementById('car');
+  const vcnt=()=>1;
+  const total=()=>Math.max(0,car.querySelectorAll('.cc').length-vcnt());
+
+  function buildDots(){
+    const d=document.getElementById('cdots');d.innerHTML='';
+    const n=car.querySelectorAll('.cc').length-vcnt()+1;
+    for(let i=0;i<n;i++){const dot=document.createElement('div');dot.className='dot'+(i===ci?' on':'');dot.onclick=()=>cgo(i);d.appendChild(dot);}
+  }
+  function cgo(i){ci=Math.max(0,Math.min(i,total()));updCar();}
+  function cmove(d){cgo(ci+d);}
+  function updCar(){
+    const c=car.querySelector('.cc');if(!c)return;
+    const w=c.offsetWidth;
+    car.style.transform='translateX(-'+(ci*w)+'px)';
+    car.style.transition='transform .45s cubic-bezier(.25,.46,.45,.94)';
+    document.querySelectorAll('.dot').forEach((d,i)=>d.classList.toggle('on',i===ci));
+  }
+  let sx=0,drag=false;
+  car.addEventListener('mousedown',e=>{drag=true;sx=e.clientX;car.classList.add('drag');});
+  car.addEventListener('mouseup',e=>{if(!drag)return;drag=false;car.classList.remove('drag');const dx=sx-e.clientX;if(Math.abs(dx)>50)cmove(dx>0?1:-1);});
+  car.addEventListener('mouseleave',()=>{drag=false;car.classList.remove('drag');});
+  car.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;},{passive:true});
+  car.addEventListener('touchend',e=>{const dx=sx-e.changedTouches[0].clientX;if(Math.abs(dx)>50)cmove(dx>0?1:-1);},{passive:true});
+  window.addEventListener('resize',()=>{ci=0;updCar();buildDots();});
+  buildDots();
+
+  // ANIMATIONS
+  const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');obs.unobserve(e.target);}}),{threshold:.12});
+  document.querySelectorAll('.anim').forEach(el=>obs.observe(el));
+</script>
+<script>window.addEventListener('load',function(){(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].
